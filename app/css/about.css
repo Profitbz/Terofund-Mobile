@@ -1,0 +1,57 @@
+.about__container {
+  padding-top: 3.5rem; }
+
+.about__text {
+  padding-left: 23rem;
+  color: #919BB0;
+  font-weight: normal;
+  max-width: 1198px;
+  line-height: 34px;
+  font-size: 16px; }
+  .about__text_strong {
+    font-weight: bold;
+    color: #455074; }
+
+.about-links {
+  padding-top: 3.6rem;
+  padding-left: 7.7rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .about-links__title {
+    font-size: 20px;
+    padding-right: 6.3rem; }
+  .about-links__container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .about-links__item {
+    padding-right: 4.6rem; }
+
+.about-risk {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 3.9rem;
+  padding-left: 7.7rem; }
+  .about-risk__title {
+    font-size: 20px;
+    line-height: 27px;
+    padding-right: 6.4rem; }
+  .about-risk__text {
+    color: #919BB0;
+    font-weight: normal;
+    max-width: 828px;
+    line-height: 33px;
+    font-size: 16px; }

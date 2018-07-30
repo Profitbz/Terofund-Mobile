@@ -1,0 +1,220 @@
+.exchange-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .exchange-form__item {
+    max-width: 48.7%; }
+  .exchange-form__head {
+    -webkit-transform: translateY(-10%);
+        -ms-transform: translateY(-10%);
+            transform: translateY(-10%);
+    margin-bottom: 0.8rem; }
+  .exchange-form__content {
+    -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
+    position: relative;
+    padding: 1.5rem 6.3%; }
+  .exchange-form__link {
+    position: absolute;
+    top: 1.6rem;
+    right: 6.6%;
+    font-size: 12px;
+    line-height: 12px;
+    text-decoration: underline; }
+  .exchange-form__container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+  .exchange-form__title {
+    width: 50%;
+    margin-bottom: 1.35rem; }
+    .exchange-form__title-top {
+      font-size: 12px;
+      margin-bottom: 0.75rem; }
+    .exchange-form__title-main {
+      font-size: 20px; }
+    .exchange-form__title-sign {
+      font-size: 10px; }
+  .exchange-form__input {
+    min-width: 50%; }
+  .exchange-form__btn {
+    width: 43%;
+    -webkit-transform: translateY(-32%);
+        -ms-transform: translateY(-32%);
+            transform: translateY(-32%); }
+    .exchange-form__btn_sell {
+      background: #FF3C54; }
+      .exchange-form__btn_sell:hover {
+        background: #FF6376; }
+      .exchange-form__btn_sell:active {
+        background: #C43A4B; }
+  .exchange-form__free {
+    font-size: 14px;
+    color: #919BB0;
+    -webkit-transform: translate(1%, -10%);
+        -ms-transform: translate(1%, -10%);
+            transform: translate(1%, -10%); }
+    .exchange-form__free-value {
+      text-decoration: underline; }
+      .exchange-form__free-value:hover {
+        color: #304FFE; }
+
+.exchange-input {
+  max-width: 86%;
+  position: relative;
+  margin-bottom: 1.2rem; }
+  .exchange-input__currency {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-size: 16px; }
+  .exchange-input__total {
+    border-color: #FF3C54; }
+
+.exchange-orders {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end; }
+  .exchange-orders__wrapper {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .exchange-orders__item {
+    width: 48.2%;
+    margin-top: 1.85rem; }
+  .exchange-orders__header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    padding-bottom: 1.8rem; }
+  .exchange-orders__title {
+    font-size: 20px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .exchange-orders__title > svg {
+      margin-left: 1.2rem; }
+      .exchange-orders__title > svg .fill {
+        fill: #000000; }
+  .exchange-orders__value {
+    font-size: 12px;
+    font-weight: normal;
+    -webkit-transform: translate(3%, -10%);
+        -ms-transform: translate(3%, -10%);
+            transform: translate(3%, -10%); }
+  .exchange-orders__number {
+    font-weight: bold; }
+  .exchange-orders__row {
+    padding-left: 6%; }
+  .exchange-orders__price {
+    width: 39%; }
+  .exchange-orders__amount {
+    width: 35%; }
+  .exchange-orders__btn {
+    margin-top: 0.1rem;
+    width: 18%; }
+
+.exchange-open {
+  padding-top: 2.4rem;
+  padding-bottom: 4.3rem; }
+  .exchange-open__header {
+    font-size: 20px; }
+  .exchange-open__table {
+    padding-top: 1.1rem; }
+  .exchange-open__row {
+    width: 100%;
+    padding-left: 3%; }
+  .exchange-open__price {
+    width: 25.4%; }
+  .exchange-open__first {
+    width: 24.9%; }
+  .exchange-open__second {
+    width: 24%; }
+  .exchange-open__description {
+    width: 18.9%;
+    text-align: right; }
+
+.exchange-history {
+  padding-bottom: 5rem; }
+  .exchange-history__links {
+    padding-top: 1.9rem;
+    padding-bottom: 2rem; }
+  .exchange-history__row {
+    padding-left: 3%; }
+  .exchange-history__date {
+    width: 22%; }
+  .exchange-history__type {
+    width: 23.3%; }
+  .exchange-history__price {
+    width: 21.2%; }
+  .exchange-history__amount {
+    width: 21.2%; }
+  .exchange-history__btn {
+    -webkit-transform: translate(1%, 9%);
+        -ms-transform: translate(1%, 9%);
+            transform: translate(1%, 9%); }
+    .exchange-history__btn-container {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: end;
+      -webkit-justify-content: flex-end;
+          -ms-flex-pack: end;
+              justify-content: flex-end; }
+
+.table-row_body.active .exchange-history__type {
+  color: #FF3C54; }
+
+.table-row_body.shadowed .exchange-history__type {
+  color: #FF3C54;
+  opacity: 0.5; }

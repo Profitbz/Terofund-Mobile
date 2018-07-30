@@ -1,0 +1,15 @@
+.deployed {
+  margin-top: 0.7rem;
+  width: 100%; }
+  .deployed__row {
+    padding-left: 3%; }
+  .deployed__date {
+    width: 20.6%; }
+  .deployed__usd-profit {
+    width: 16.9%; }
+  .deployed__coin-profit-first {
+    width: 20.9%; }
+  .deployed__coin-profit-second {
+    width: 18.5%; }
+  .deployed__change {
+    width: 14.2%; }

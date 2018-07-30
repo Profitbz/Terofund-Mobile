@@ -1,0 +1,103 @@
+@import "vars";
+
+
+.form {
+
+  &__modal-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__container {
+    min-width: 30.5%;
+    margin-bottom: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    &_modal {
+      max-width: 45%;
+    }
+
+    &_reinvest {
+      margin-top: 1rem;
+    }
+
+    &_deposit {
+      margin-top: 1.4rem;
+    }
+
+    &_lg {
+      margin-right: 0;
+      min-width: 100%;
+      max-width: 100%;
+    }
+
+    &_m0 {
+      margin-bottom: 0rem;
+    }
+  }
+
+  &__title {
+    display: block;
+    font-size: 8px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $mainAshes;
+    font-weight: normal;
+    padding-bottom: 0.68rem;
+    order: -1;
+  }
+
+  &__input {
+    min-width: 100%;
+    border-bottom: 2px solid $mainBlue;
+    font-weight: normal;
+    font-size: 13px;
+    color: $mainBlack;
+    padding-bottom: 0.3rem;
+
+    &::placeholder {
+      color: $mainGray;
+      font-weight: normal;
+    }
+
+    //&:focus + .form__title {
+    //  color: $mainGray;
+    //}
+
+  }
+
+  &__warn {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 100%;
+    text-align: right;
+    padding-top: 0.1rem;
+    color: $mainRed;
+    font-size: 8px;
+    font-weight: normal;
+
+      &.active {
+        visibility: visible;
+        opacity: 1;
+      }
+  }
+
+  &__tip {
+    display: block;
+    min-width: 100%;
+    text-align: left;
+    padding-top: 0.65rem;
+    font-size: 12px;
+    font-weight: normal;
+  }
+}
+
+.form-input__currency {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  font-size: 16px;
+}

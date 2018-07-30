@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="8px" viewBox="0 0 6 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>dropdown_up_down</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Fund" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.5">
+        <g id="Wallet-SSC-Wallet-white" transform="translate(-677.000000, -586.000000)" fill="#919BB0">
+            <g id="Detail-1" transform="translate(337.000000, 540.000000)">
+                <g id="Group-3" transform="translate(30.000000, 32.000000)">
+                    <g id="Btn-1" transform="translate(123.000000, 0.000000)">
+                        <g id="Date" transform="translate(20.251534, 12.000000)">
+                            <g id="dropdown_up_dpwn" transform="translate(164.000000, 0.000000)">
+                                <g id="ic_dropdown_new">
+                                    <polygon id="Path-2" points="3.5 7.5 8.5 7.5 6 10"></polygon>
+                                    <polygon id="Path-2" transform="translate(6.000000, 3.500000) scale(1, -1) translate(-6.000000, -3.500000) " points="3.5 2 8.5 2 6 5"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

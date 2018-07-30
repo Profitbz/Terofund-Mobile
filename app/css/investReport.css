@@ -1,0 +1,272 @@
+.investReport__links {
+  padding-top: 0.3rem;
+  padding-bottom: 1rem; }
+
+.investReport-chart__first {
+  position: relative;
+  overflow: hidden;
+  height: 332px;
+  margin-bottom: 1.8rem; }
+
+.investReport-chart__second {
+  position: relative;
+  overflow: hidden;
+  height: 332px;
+  margin-bottom: 6rem; }
+
+.investReport__title {
+  padding-top: 2.2rem;
+  padding-left: 3%; }
+
+.investReport-donut {
+  margin-right: 2rem; }
+  .investReport-donut__header {
+    padding-top: 3.1rem;
+    padding-left: 3%;
+    padding-right: 5.9%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+        -ms-flex-align: end;
+            align-items: flex-end; }
+  .investReport-donut__icon {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .investReport-donut__img {
+    height: 16px;
+    width: 16px;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    margin-right: 0.7rem; }
+    .investReport-donut__img_red {
+      background: #FF3C54; }
+    .investReport-donut__img_blue {
+      background: #304FFE; }
+  .investReport-donut__text {
+    font-size: 12px; }
+    .investReport-donut__text_mr {
+      margin-right: 1rem; }
+  .investReport-donut__main {
+    position: relative;
+    height: 378px;
+    overflow: hidden; }
+  .investReport-donut__container {
+    position: absolute;
+    left: -10%; }
+  .investReport-donut__wrapper {
+    position: relative; }
+  .investReport-donut__chart {
+    width: 700px;
+    height: 370px; }
+  .investReport-donut__bg {
+    width: 310px;
+    height: 310px;
+    border: 1px solid #304FFE;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: transparent;
+    position: absolute;
+    top: 31px;
+    left: 195px; }
+  .investReport-donut__summ {
+    position: absolute;
+    top: 6.1rem;
+    right: 26%;
+    z-index: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-height: 250px;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+
+.investReport-colied {
+  overflow: hidden; }
+
+.colied {
+  position: relative;
+  height: 451px; }
+  .colied__header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%; }
+  .colied__wrapper {
+    width: 1100px;
+    margin: 0 auto;
+    position: absolute;
+    top: 2rem;
+    left: 5.7%; }
+
+.donut-summary {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1.3rem;
+  cursor: pointer;
+  margin-right: 6rem;
+  visibility: hidden;
+  opacity: 0; }
+  .donut-summary:nth-child(1).active {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    transition: opacity 0.5s; }
+  .donut-summary:nth-child(1) .donut-summary__btn {
+    background: #1A37D8; }
+  .donut-summary:nth-child(2).active {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s; }
+  .donut-summary:nth-child(2) .donut-summary__btn {
+    background: #324BDA; }
+  .donut-summary:nth-child(3).active {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 1.5s;
+    -o-transition: opacity 1.5s;
+    transition: opacity 1.5s; }
+  .donut-summary:nth-child(3) .donut-summary__btn {
+    background: #4A60DD; }
+  .donut-summary:nth-child(4).active {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 2s;
+    -o-transition: opacity 2s;
+    transition: opacity 2s; }
+  .donut-summary:nth-child(4) .donut-summary__btn {
+    background: #6275E1; }
+  .donut-summary:nth-child(5).active {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 2.5s;
+    -o-transition: opacity 2.5s;
+    transition: opacity 2.5s; }
+  .donut-summary:nth-child(5) .donut-summary__btn {
+    background: #7A8AE3; }
+  .donut-summary:nth-child(6).active {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 3s;
+    -o-transition: opacity 3s;
+    transition: opacity 3s; }
+  .donut-summary:nth-child(6) .donut-summary__btn {
+    background: #929FE6; }
+  .donut-summary:nth-child(7).active {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 3.5s;
+    -o-transition: opacity 3.5s;
+    transition: opacity 3.5s; }
+  .donut-summary:nth-child(7) .donut-summary__btn {
+    background: #C2C9ED; }
+  .donut-summary:nth-child(8).active {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 4s;
+    -o-transition: opacity 4s;
+    transition: opacity 4s; }
+  .donut-summary:nth-child(8) .donut-summary__btn {
+    background: #D6DAF6; }
+  .donut-summary:nth-child(9).active {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 4.5s;
+    -o-transition: opacity 4.5s;
+    transition: opacity 4.5s; }
+  .donut-summary:nth-child(9) .donut-summary__btn {
+    background: #D9DDF7; }
+  .donut-summary:nth-child(10).active {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: opacity 5s;
+    -o-transition: opacity 5s;
+    transition: opacity 5s; }
+  .donut-summary:nth-child(10) .donut-summary__btn {
+    background: #E4E7F8; }
+  .donut-summary:hover .donut-summary__btn {
+    -webkit-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+    background: #FF3C54; }
+  .donut-summary:hover .donut-summary__name {
+    -webkit-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s;
+    color: #5c677f; }
+  .donut-summary.hover .donut-summary__btn {
+    -webkit-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+    background: #FF3C54; }
+  .donut-summary.hover .donut-summary__name {
+    -webkit-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s;
+    color: #5c677f; }
+  .donut-summary__btn {
+    -webkit-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+    width: 60px;
+    height: 24px;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: white;
+    font-size: 12px;
+    margin-right: 1rem; }
+  .donut-summary__name {
+    -webkit-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s;
+    font-weight: normal;
+    color: #919BB0; }
+
+.investReportChart {
+  height: 280px;
+  min-width: 100%;
+  max-width: 100%;
+  position: absolute;
+  left: -2rem;
+  top: 4.2rem; }

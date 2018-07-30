@@ -1,0 +1,95 @@
+@import "vars";
+
+.hedge {
+  &__container {
+    padding-left: 7rem;
+    padding-top: 1.6rem;
+  }
+
+  &__item {
+    display: flex;
+    padding-bottom: 6rem;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+
+  &__left {
+    padding-right: 4.7rem;
+
+    & .highcharts-title {
+      display: none;
+    }
+
+    & .highcharts-button {
+      display: none;
+    }
+
+    & .highcharts-yaxis-labels text:last-child {
+      display: none;
+    }
+
+    .highcharts-container {
+      background: #fcfcfc;
+    }
+  }
+
+  &-chart {
+    &__title {
+      font-size: 20px;
+      font-weight: normal;
+      padding-left: 0.7rem;
+    }
+
+    &__sub {
+      padding-top: 0.45rem;
+      padding-left: 0.6rem;
+      font-size: 11.4px;
+      color: #919BB0;
+      font-weight: normal;
+    }
+  }
+
+  &-text {
+    &__header {
+      display: flex;
+    }
+
+    &__title {
+      color: $mainBlue;
+      padding-right: 1.6rem;
+    }
+
+    &__value {
+      &-bottom {
+        padding-top: 0.1rem;
+        font-size: 8px;
+        color: $mainBlue;
+      }
+    }
+  }
+
+  &__text {
+      font-size: 14px;
+      color: $mainAshes;
+      font-weight: normal;
+      padding-top: 2rem;
+      line-height: 34px;
+      max-width: 488px;
+
+    &_start {
+      font-weight: bold;
+      color: $mainBlack;
+    }
+  }
+
+  &__link {
+    color: $mainBlue;
+    font-weight: normal;
+    text-decoration: underline;
+    font-size: 14px;
+    padding-top: 1rem;
+  }
+
+}

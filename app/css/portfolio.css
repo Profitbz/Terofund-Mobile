@@ -1,0 +1,24 @@
+.portfolio {
+  margin-top: 0.7rem;
+  width: 100%; }
+  .portfolio__row {
+    padding-left: 3%; }
+  .portfolio__date {
+    width: 12.6%; }
+  .portfolio__asset {
+    width: 8.1%; }
+  .portfolio__short {
+    width: 7.9%; }
+  .portfolio__first-price {
+    width: 11.7%; }
+  .portfolio__second-price {
+    width: 13.7%; }
+  .portfolio__third-price {
+    width: 11.5%; }
+  .portfolio__balance {
+    width: 11%; }
+  .portfolio__usd {
+    width: 9.1%; }
+  .portfolio__share {
+    width: 9.8%;
+    text-align: right; }

@@ -1,0 +1,85 @@
+.wallet {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .wallet__item {
+    -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 10px;
+            border-radius: 10px;
+    width: 317px;
+    height: 176px;
+    position: relative;
+    overflow: hidden; }
+  .wallet__data {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .wallet__title {
+    font-size: 14px;
+    padding-top: 1.8rem;
+    padding-left: 2rem; }
+  .wallet__title-bg {
+    position: absolute;
+    top: 1rem;
+    left: -0.4rem;
+    color: rgba(145, 155, 176, 0.1);
+    font-size: 30px; }
+  .wallet-values {
+    padding-top: 1.05rem;
+    padding-right: 2.1rem; }
+    .wallet-values__item {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; }
+      .wallet-values__item:first-child {
+        margin-bottom: 0.4rem; }
+    .wallet-values__img {
+      margin-right: 1rem; }
+      .wallet-values__img svg {
+        -webkit-transform: translate(14%, 2%);
+            -ms-transform: translate(14%, 2%);
+                transform: translate(14%, 2%); }
+    .wallet-values__title {
+      color: rgba(145, 155, 176, 0.5);
+      font-size: 10px; }
+    .wallet-values__value {
+      font-size: 20px; }
+    .wallet-values__currency {
+      font-size: 10px; }
+  .wallet-btns {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0.7rem 2.25rem 0; }
+    .wallet-btns__link {
+      cursor: pointer;
+      font-size: 10px;
+      color: #919BB0;
+      text-transform: uppercase;
+      text-decoration: underline;
+      letter-spacing: 2px; }

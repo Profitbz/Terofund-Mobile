@@ -1,0 +1,98 @@
+.programm-chart {
+  margin-bottom: 1.2rem; }
+
+.programm-head {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2.3rem 2.1rem 0 2rem; }
+  .programm-head__origin {
+    margin-right: 6.2rem;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1; }
+  .programm-head__value {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1; }
+    .programm-head__value_mr {
+      margin-right: 5.9rem; }
+  .programm-head__title {
+    margin-bottom: 1rem; }
+    .programm-head__title_big {
+      font-size: 30px;
+      margin-bottom: 0.1rem; }
+  .programm-head__subtitle {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 0.5rem; }
+  .programm-head__date {
+    font-size: 12px;
+    font-weight: normal;
+    color: #FF3C54; }
+  .programm-head__text {
+    font-size: 12px;
+    font-weight: normal; }
+    .programm-head__text_lh {
+      line-height: 21px; }
+  .programm-head__profit {
+    padding-left: 4rem; }
+
+.programm-chart {
+  position: relative;
+  width: 100%;
+  height: 389px;
+  overflow: hidden; }
+  .programm-chart__container {
+    position: absolute;
+    top: 0;
+    left: -10%;
+    height: 280px;
+    min-width: 1200px;
+    margin: 0 auto; }
+    .programm-chart__container.opened {
+      min-width: 120%; }
+
+/* Define the stop colors */
+#gradient-0 stop {
+  stop-color: #304FFE; }
+
+#gradient-0 stop[offset="0"] {
+  stop-opacity: 0.35; }
+
+#gradient-0 stop[offset="1"] {
+  stop-opacity: 0; }
+
+/* Apply the gradients */
+.highcharts-color-0 .highcharts-area {
+  fill-opacity: 1;
+  fill: url(#gradient-0); }
+
+/* Define the stop colors */
+.investReport-chart__second #gradient-1 stop {
+  stop-color: #FF3C54; }
+
+#gradient-1 stop[offset="0"] {
+  stop-opacity: 0.45; }
+
+#gradient-1 stop[offset="1"] {
+  stop-opacity: 0; }
+
+/* Apply the gradients */
+.investReport-chart__second .highcharts-color-0 .highcharts-area {
+  fill-opacity: 1;
+  fill: url(#gradient-1); }
+
+.highcharts-axis-line {
+  display: none; }
+
+.highcharts-legend-item {
+  display: none; }
+
+.highcharts-axis-labels span.active {
+  color: #455074 !important;
+  fill: #455074;
+  font-weight: bold !important; }

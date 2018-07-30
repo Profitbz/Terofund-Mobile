@@ -1,0 +1,31 @@
+.deployed {
+  margin-top: 0.7rem;
+  width: 100%;
+
+  &__row {
+    padding-left: 3%;
+  }
+
+  &__date {
+    width: 20.6%;
+  }
+
+  &__usd-profit {
+    width: 16.9%;
+  }
+
+  &__coin-profit-first {
+    width: 20.9%;
+  }
+
+  &__coin-profit-second {
+    width: 18.5%;
+  }
+
+  &__change {
+    width: 14.2%;
+  }
+
+  &__lifetime {
+  }
+}

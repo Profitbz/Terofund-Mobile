@@ -1,0 +1,76 @@
+.landing-header {
+  background: url("../img/landing-header-bg.svg");
+  background-repeat: no-repeat;
+  min-height: 803px;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: bottom; }
+  .landing-header_white {
+    background: none;
+    min-height: 0; }
+  .landing-header__logo_mobile {
+    display: none; }
+  .landing-header__bar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 1.8rem;
+    padding-left: 5.7rem; }
+  .landing-header__container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 6.4rem;
+    padding-right: 3rem; }
+  .landing-header__item {
+    padding-right: 1.6rem;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #919BB0; }
+    .landing-header__item a:hover {
+      color: #304FFE; }
+  .landing-header__btns {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 2.9rem;
+    color: #919BB0; }
+  .landing-header__sign-in {
+    background: transparent;
+    color: #919BB0;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding-right: 1rem; }
+  .landing-header__sign-up {
+    width: 152px;
+    background: #FF3C54; }
+    .landing-header__sign-up:hover {
+      background: #FF6376; }
+    .landing-header__sign-up:active {
+      background: #C43A4B; }
+  .landing-header__main {
+    height: 50px; }
+
+.lang-change {
+  border: none;
+  color: #304FFE;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: bold; }
+  .lang-change:after {
+    background: url("../img/chevron-down.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    right: 12px;
+    top: 12px; }

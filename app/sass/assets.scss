@@ -1,0 +1,64 @@
+@import "vars";
+
+.assets {
+  &__container {
+    padding-top: 3.5rem;
+    line-height: 34px;
+    padding-left: 21rem;
+    font-size: 16px;
+    color: $mainAshes;
+    font-weight: normal;
+  }
+
+  &__paragraph {
+    max-width: 860px;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  &__item {
+    padding: 1.2rem 2rem;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 888px;
+    margin-bottom: 1rem;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__title {
+    font-size: 20px;
+    color: $mainBlack;
+  }
+
+  &__btn {
+    transition: all 0.5s;
+    cursor: pointer;
+    &.active {
+      transition: all 0.5s;
+      transform: rotate(180deg);
+    }
+  }
+
+  &__content {
+    padding-top: 1.8rem;
+    display: none;
+  }
+
+  &__text {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 23px;
+    color: $mainAshes;
+    padding-bottom: 1.3rem;
+
+    &:last-child {
+      padding-bottom: 2.7rem;
+    }
+  }
+}

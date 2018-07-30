@@ -1,0 +1,100 @@
+@import "vars";
+
+.landing-header {
+  background: url("../img/landing-header-bg.svg");
+  background-repeat: no-repeat;
+  //min-height: 100vh;
+  min-height: 803px;
+  background-size: cover;
+  background-position: bottom;
+
+  &_white {
+    background: none;
+    min-height: 0;
+  }
+
+  &__logo_mobile {
+    display: none;
+  }
+
+
+  &__bar {
+    display: flex;
+    align-items: center;
+    padding-top: 1.8rem;
+    padding-left: 5.7rem;
+  }
+
+  &__container  {
+    display: flex;
+    padding-left: 6.4rem;
+    padding-right: 3rem;
+  }
+
+  &__item {
+    padding-right: 1.6rem;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: $mainAshes;
+
+    & a:hover {
+      color: $mainBlue;
+    }
+  }
+
+  &__btns {
+    display: flex;
+    align-items: center;
+    padding-left: 2.9rem;
+    color: $mainAshes;
+  }
+
+  &__sign-in {
+    background: transparent;
+    color: $mainAshes;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding-right: 1rem;
+  }
+
+  &__sign-up {
+    width: 152px;
+    background: $mainRed;
+
+    &:hover {
+      background: #FF6376;
+    }
+
+    &:active {
+      background: #C43A4B;
+    }
+  }
+
+  &__main {
+
+    height: 50px;
+  }
+
+
+}
+
+.lang-change {
+  border: none;
+  color: $mainBlue;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: bold;
+
+  &:after {
+    background: url("../img/chevron-down.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    right: 12px;
+    top: 12px
+  }
+
+  & .list {
+
+  }
+}

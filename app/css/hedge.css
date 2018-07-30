@@ -1,0 +1,68 @@
+.hedge__container {
+  padding-left: 7rem;
+  padding-top: 1.6rem; }
+
+.hedge__item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 6rem; }
+  .hedge__item:last-child {
+    padding-bottom: 0; }
+
+.hedge__left {
+  padding-right: 4.7rem; }
+  .hedge__left .highcharts-title {
+    display: none; }
+  .hedge__left .highcharts-button {
+    display: none; }
+  .hedge__left .highcharts-yaxis-labels text:last-child {
+    display: none; }
+  .hedge__left .highcharts-container {
+    background: #fcfcfc; }
+
+.hedge-chart__title {
+  font-size: 20px;
+  font-weight: normal;
+  padding-left: 0.7rem; }
+
+.hedge-chart__sub {
+  padding-top: 0.45rem;
+  padding-left: 0.6rem;
+  font-size: 11.4px;
+  color: #919BB0;
+  font-weight: normal; }
+
+.hedge-text__header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.hedge-text__title {
+  color: #304FFE;
+  padding-right: 1.6rem; }
+
+.hedge-text__value-bottom {
+  padding-top: 0.1rem;
+  font-size: 8px;
+  color: #304FFE; }
+
+.hedge__text {
+  font-size: 14px;
+  color: #919BB0;
+  font-weight: normal;
+  padding-top: 2rem;
+  line-height: 34px;
+  max-width: 488px; }
+  .hedge__text_start {
+    font-weight: bold;
+    color: #455074; }
+
+.hedge__link {
+  color: #304FFE;
+  font-weight: normal;
+  text-decoration: underline;
+  font-size: 14px;
+  padding-top: 1rem; }

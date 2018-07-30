@@ -1,0 +1,56 @@
+/* ----- base styles ---- */
+
+@import "vars";
+
+@import "fonts";
+
+@import "base";
+
+@import "form";
+
+/* ---- libs ----- */
+
+@import "customSwitcher";
+@import "burgerBtn";
+@import "slick-slider";
+@import "customSelect";
+@import "customCheckbox";
+@import "modal";
+
+/* ---- main styles ----- */
+
+/* ---- landing ----- */
+
+@import "landing-header";
+@import "greeting";
+@import "landing-content";
+@import "landing-footer";
+@import "hedge";
+@import "assets";
+@import "reviews";
+@import "article";
+@import "docs";
+@import "about";
+
+/* ---- personal cabinet ----- */
+
+@import "aside";
+@import "header";
+@import "content";
+@import "programmChart";
+@import "invest";
+@import "bonus";
+@import "wallet";
+@import "transaction";
+@import "profile";
+@import "investReport";
+@import "portfolio";
+@import "deploed";
+@import "exchange";
+@import "affiliate";
+@import "binary";
+@import "Treant";
+
+//@import "media"
+
+@import "media";

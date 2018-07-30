@@ -1,0 +1,227 @@
+@import "vars";
+
+.affiliate {
+
+  &__links {
+    padding-top: 0.7em;
+    padding-bottom: 1.8rem;
+  }
+
+  &-search {
+    &__header {
+      display: flex;
+      align-items: center;
+      padding-bottom: 1.3rem;
+    }
+
+    &__title {
+      width: 28.7%;
+      font-size: 20px;
+      letter-spacing: 0.3px;
+    }
+
+    &__sub {
+      width: 23%;
+      font-size: 12px;
+      color: $mainAshes;
+    }
+
+    &__value {
+      font-size: 16px;
+    }
+
+    &__main {
+      padding: 2.4rem 3.1%;
+      padding-bottom: 1.7rem;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__search-container {
+      display: flex;
+      align-items: center;
+      width: 49%;
+      transform: translateY(-10%);
+
+      & > svg {
+        margin-right: 6.8%;
+        cursor: pointer;
+      }
+    }
+
+    &__input {
+      font-size: 14px;
+      font-weight: normal;
+      width: 75%;
+
+      &::placeholder {
+        color: #C8CDD7;
+      }
+    }
+  }
+
+  &-list {
+    padding-top: 2.4rem;
+
+
+    &__container {
+      padding-top: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &__item {
+      cursor: pointer;
+      position: relative;
+      width: 71px;
+      height: 71px;
+      box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      opacity: 0.4;
+
+      &:hover {
+        opacity: 1;
+      }
+
+      &.active {
+        opacity: 1;
+      }
+    }
+
+    &__icon {
+      width: 10px;
+      height: 10px;
+      border: 2px solid $mainAshes;
+      border-radius: 50%;
+      position: absolute;
+      top: 8px;
+      left: 8px;
+    }
+
+    &__value {
+      font-size: 24px;
+      transform: translateY(10%);
+    }
+
+    &__text {
+      font-size: 8px;
+      color: $mainAshes;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+  }
+
+  &-table {
+    padding-top: 1.6rem;
+    padding-bottom: 5rem;
+
+    &__row {
+      padding-left: 3.3%;
+
+
+      &_body {
+        padding-top: 0.9rem;
+        align-items: center;
+        padding-bottom: 0.9rem;
+        margin-bottom: 0.6rem;
+
+        &.shadowed svg path {
+          fill: $mainAshes;
+        }
+      }
+
+      &_header {
+        margin-bottom: 0.6rem;
+      }
+
+      &_blue {
+        color: $mainBlue;
+      }
+    }
+
+    &__icon {
+      width: 9.2%;
+
+      & > svg {
+        transition: transform 0.3s;
+        cursor: pointer;
+
+        & .fill {
+          fill: $mainBlack;
+        }
+      }
+
+      & > svg.rotate {
+        transition: transform 0.3s;
+          transform: rotate(-90deg);
+      }
+    }
+
+    &__level {
+      width: 6.3%;
+    }
+
+    &__user {
+      width: 9.5%;
+    }
+
+    &__logo {
+      width: 32px;
+      height: 32px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      border-radius: 50%;
+      font-size: 10px;
+      letter-spacing: 1px;
+
+      & > span {
+        display: block;
+        width: 100%;
+        text-align: center;
+        transform: translate(3%, 13%);
+      }
+
+      &_blue {
+        background: $mainBlue;
+      }
+
+      &_black {
+        background: $mainBlack;
+      }
+
+      &_shadow {
+        background: $mainGray;
+      }
+    }
+
+    &__username {
+      width: 12.4%;
+    }
+
+    &__first {
+      width: 12.5%;
+    }
+
+    &__last {
+      width: 12.8%;
+    }
+
+    &__email {
+      width: 24.8%;
+    }
+  }
+
+  &__btn-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0.6rem;
+  }
+}

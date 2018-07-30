@@ -1,0 +1,108 @@
+@import "vars";
+
+.greeting {
+  padding-top: 2.2rem;
+  padding-left: 7.7rem;
+  padding-right: 10.5rem;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-nav {
+    transform: translateY(19%);
+
+    &__item {
+      font-size: 16px;
+      color: #C3C9D5;
+      padding-bottom: 2.5rem;
+
+      &:last-child {
+        padding-bottom: 0;
+      }
+    }
+  }
+
+  &__num {
+    color: $mainBlack;
+
+  }
+
+  &__text {
+    max-width: 339px;
+    transform: translate( 3%, 10%);
+  }
+
+  &__image {
+    height: 425px;
+    width: 482px;
+    position: relative;
+    overflow: hidden;
+
+    & > img {
+      position: absolute;
+      z-index: 1;
+      left: -793px;
+      top: -109px;
+    }
+
+  }
+
+  &__title {
+    color: #EAEBEE;
+    font-size: 32px;
+    font-weight: normal;
+
+    &_name {
+      font-size: 60px;
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 65px;
+      letter-spacing: 5px;
+      padding-top: 0.5rem;
+    }
+  }
+
+  &__sub {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 30px;
+    color: $mainAshes;
+    padding-bottom: 2rem;
+  }
+
+  &__info {
+    max-width: 87%;
+    font-size: 12px;
+    color: #919BB0;
+    font-weight: normal;
+    letter-spacing: 0px;
+    line-height: 23.7px;
+  }
+
+  &-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 57.8%;
+    padding-top: 1.2rem;
+    padding-right: 3.2rem;
+    margin: 0 auto;
+
+    &__item {
+      display: flex;
+      align-items: center;
+      color: $mainRed;
+      text-decoration: underline;
+      font-size: 11px;
+      letter-spacing: 1px;
+
+      & svg {
+        margin-right: 1.5rem;
+      }
+    }
+
+  }
+}

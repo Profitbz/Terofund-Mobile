@@ -1,0 +1,42 @@
+@import "vars";
+
+.bonus {
+  padding: 1.6rem 1.9rem 1.3rem 1.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.3rem;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__circle {
+    border: 3px solid $mainBlack;
+    border-radius: 50%;
+    height: 19px;
+    width: 19px;
+    //transform: translateY(-10%);
+    margin-right: 1.7rem;
+  }
+
+  &-text {
+    font-size: 14px;
+    margin-right: 2rem;
+  }
+
+  &__type {
+    margin-bottom: 0.2rem;
+  }
+
+  &__status {
+    font-weight: normal;
+    color: $mainAshes;
+  }
+}

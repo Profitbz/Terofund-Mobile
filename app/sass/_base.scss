@@ -1,0 +1,390 @@
+* {
+  box-sizing: border-box;
+
+  &:focus {
+    outline: none;
+  }
+
+  //&::-webkit-scrollbar {
+  //  width: 10px;
+  //  height: 10px;
+  //  background-color: #f5f5f5;
+  //}
+  //&::-webkit-scrollbar-thumb {
+  //  background-color: #2c3e50;
+  //  border-radius: 3px;
+  //}
+}
+
+html {
+  font-family: "Core Sans X", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  min-height: 100%;
+  height: 100%;
+  min-width: 1440px;
+  overflow-x: auto;
+}
+
+body {
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  max-width: 100vw;
+  color: $mainBlack;
+
+  &.no-scroll {
+    overflow: hidden;
+  }
+}
+
+body, ul, ol, h1, h2, h3, h4, h5, h6, p, button {
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  line-height: 0;
+  text-decoration: inherit;
+  color: inherit;
+  font-size: inherit;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  user-select: none;
+}
+
+span, a {
+  display: inline-block;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  user-select: none;
+}
+
+input, select {
+  font-family: "Core Sans X", sans-serif;
+  border: none;
+  font-weight: inherit;
+  font-size: inherit;
+  padding: 0;
+  background-color: transparent;
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+.current {
+  padding-top: 2px;
+}
+
+.option {
+  padding-top: 3px;
+}
+
+.page-wrapper.white {
+  color: $mainBlack;
+}
+
+.page-wrapper.dark {
+  color: $mainAshes;
+
+  & .header-info__page-title {
+    background-color: #2A3156;
+  }
+
+  & .main-nav__container {
+    background-color: #2B3257;
+    border-top-color: #3D4466;
+  }
+
+  & .program-head__titles, .programm-head__text, .bonus__status, .limit__text, .active-bonus, .wallet-values__title,
+  & .transaction-links__item a, & .transaction-table__date_time, & .profile__sponsor, & .profile__tf-text,
+  & .exchange-form__title-top, & .exchange-history__date_time, & .affiliate-search__sub {
+    color: #455074;
+  }
+
+  & .table-row_body.shadowed .affiliate-table__icon, .table-row_body.shadowed .affiliate-table__user {
+    opacity: 0.5;
+  }
+
+  & .affiliate-table__row_body .affiliate-table__icon {
+    border-color: #919BB0;
+  }
+
+  & .affiliate-table__icon.active {
+    background-color: rgba(48, 79, 254, 0.11);
+    border-color: rgba(48, 79, 254, 0.11);
+  }
+
+  & .affiliate-search__value {
+    color: rgba(145, 155, 176, 0.6);
+  }
+
+  & .exchange-orders__title > svg .fill, & .affiliate-table__icon > svg .fill {
+    fill: #919BB0;
+  }
+
+  .transaction-links__item.active a {
+    color: $mainRed;
+  }
+
+
+  & .highcharts-label-box.highcharts-tooltip-box {
+    fill: #455074 !important;
+    stroke: #455074 !important;
+  }
+
+  & .block-title, .invest-info__title, & .affiliate-search__input {
+    color: #919BB0;
+  }
+
+
+
+
+  & .highcharts-tooltip.highcharts-color-0 text {
+    color: #919BB0 !important;
+    fill: #919BB0 !important;
+  }
+
+  & .dropdown.open .list ul {
+    background-color: $mainAshes;
+  }
+
+
+  & .main-container, & .header-info__main, & .exchange-form__content, & .affiliate-list__item, & .wallet__item,
+  & .dropdown.open .list ul
+
+  {
+    background-color: #2B3257;
+  }
+
+  & .main-container_styless {
+    background-color: transparent;
+  }
+
+  & .styled-checkbox + label:before {
+    background: transparent;
+  }
+
+
+  & .slick-dots li {
+    border-color: #919BB0;
+
+    &.slick-active {
+      border-color: #455074;
+      background-color: #919BB0;
+    }
+  }
+}
+
+.main-container {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 100%;
+  min-width: 100%;
+  transition: all 0.6s;
+}
+
+.main-container_styless {
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.main-container.opened {
+  transition: all 0.6s;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.main-container.space-between.opened {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 3%;
+}
+
+.block-title {
+  font-size: 20px;
+}
+
+.ta-center {
+  text-align: center;
+}
+
+.main-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 216px;
+  height: 36px;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: white;
+  background: $mainBlue;
+  letter-spacing: 2px;
+  border-radius: 60px;
+}
+
+.main-btn:hover {
+  background: #5972FE;
+}
+
+.main-btn:active {
+  background: #0222D5;
+}
+
+.page-content {
+  width: 100%;
+  padding-right: 6.6%;
+}
+
+.highcharts-data-label-connector {
+  visibility: hidden;
+  fill: red;
+}
+
+#donut tspan {
+  stroke: none;
+  cursor: pointer;
+}
+
+#donut .highcharts-point {
+  cursor: pointer;
+}
+
+.table-row {
+  display: flex;
+  font-size: 12px;
+  font-weight: normal;
+
+  &_empty {
+    font-size: 16px;
+    font-weight: normal;
+    align-items: center;
+    justify-content: center;
+    padding: 1.8rem 0;
+    text-align: center;
+  }
+}
+
+.table-row_header {
+  margin-bottom: 0.6rem;
+  font-size: 10px;
+  font-weight: bold;
+  color: rgba(145, 155, 176, 0.5);
+}
+
+.table-row_body {
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+  margin-bottom: 0.7rem;
+
+  &.first {
+    transition: all 0.4s;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+
+  &.active:hover {
+    transition: all 0.4s;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+
+  &.shadowed {
+    color: rgba(145, 155, 176, 0.3);
+  }
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3.45rem;
+  padding-bottom: 3rem;
+
+  &-right, &-left {
+    display: flex;
+    align-items: center;
+
+    &__icon {
+      transform: translateY(-10%);
+    }
+
+    &__text {
+      font-size: 12px;
+      line-height: 12px;
+      letter-spacing: 2px;
+    }
+  }
+
+  &-left {
+    &__icon {
+      margin-right: 1.3rem;
+    }
+  }
+
+  &-right {
+    &__icon {
+      margin-left: 1.3rem;
+    }
+  }
+
+  &-center {
+    font-weight: normal;
+    font-size: 14px;
+    color: $mainAshes;
+    &__number {
+      margin-right: 1rem;
+
+      &.active {
+        color: $mainBlack;
+      }
+    }
+
+    &__dots {
+      margin-right: 2rem;
+    }
+  }
+}
+
+.highcharts-background {
+  fill: transparent;
+}
+
+.landing-body {
+  background-color: #2A3156;
+  //min-width: 1440px;
+  //overflow-x: auto;
+}
+
+.landing-body_min {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mobile-logo {
+  display: none;
+}
+
+
+.marquee {
+  width: 1195px; /* the plugin works for responsive layouts so width is not necessary */
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header .landing-burger {
+  display: none;
+}

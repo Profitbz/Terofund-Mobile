@@ -1,0 +1,39 @@
+@import "vars";
+
+.landing-footer {
+  background: #151A31;
+
+
+  &__container  {
+    display: flex;
+    align-items: center;
+    padding-top: 3.1rem;
+    padding-bottom: 3rem;
+    padding-left: 7.6rem;
+  }
+
+  &__contacts {
+    display: flex;
+    align-items: center;
+  }
+
+  &__copy {
+    font-size: 16px;
+    color: #C3C9D5;
+    padding-right: 9.1rem;
+  }
+
+  &__address {
+    font-size: 12px;
+    color: #C3C9D5;
+    font-weight: normal;
+    line-height: 21px;
+    padding-right: 9rem;
+  }
+
+  &__item {
+    font-size: 16px;
+    color: #C3C9D5;
+    padding-right: 4.4rem;
+  }
+}

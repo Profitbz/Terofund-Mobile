@@ -1,0 +1,136 @@
+@import "vars";
+
+.programm {
+
+  &-chart {
+    margin-bottom: 1.2rem;
+  }
+
+  &-head {
+
+      display: flex;
+      padding: 2.3rem 2.1rem 0 2rem;
+
+        &__origin {
+          margin-right: 6.2rem;
+          flex-grow: 1;
+        }
+
+        &__value {
+          flex-grow: 1;
+          &_mr {
+            margin-right: 5.9rem;
+          }
+        }
+
+        &__title {
+          margin-bottom: 1rem;
+
+          &_big {
+            font-size: 30px;
+            margin-bottom: 0.1rem;
+          }
+        }
+
+        &__subtitle {
+          font-size: 12px;
+          font-weight: bold;
+          margin-bottom: 0.5rem;
+        }
+
+        &__date {
+          font-size: 12px;
+          font-weight: normal;
+          color: $mainRed;
+        }
+
+        &__text {
+          font-size: 12px;
+          font-weight: normal;
+
+          &_lh {
+            line-height: 21px;
+          }
+        }
+
+
+        &__profit {
+          padding-left: 4rem;
+        }
+
+  }
+
+  &-chart {
+    position: relative;
+    width: 100%;
+    height: 389px;
+    overflow: hidden;
+
+    &__container {
+      position: absolute;
+      top: 0;
+      left: -10%;
+      height: 280px;
+      min-width: 1200px;
+      margin: 0 auto;
+
+      &.opened {
+        min-width: 120%;
+      }
+    }
+  }
+}
+
+/* Define the stop colors */
+
+
+#gradient-0 stop {
+  stop-color: #304FFE;
+}
+#gradient-0 stop[offset="0"] {
+  stop-opacity: 0.35;
+}
+#gradient-0 stop[offset="1"] {
+  stop-opacity: 0;
+}
+
+/* Apply the gradients */
+
+.highcharts-color-0 .highcharts-area {
+  fill-opacity: 1;
+  fill: url(#gradient-0);
+}
+
+/* Define the stop colors */
+
+
+.investReport-chart__second #gradient-1 stop {
+  stop-color: $mainRed;
+}
+#gradient-1 stop[offset="0"] {
+  stop-opacity: 0.45;
+}
+#gradient-1 stop[offset="1"] {
+  stop-opacity: 0;
+}
+
+/* Apply the gradients */
+
+.investReport-chart__second .highcharts-color-0 .highcharts-area {
+  fill-opacity: 1;
+  fill: url(#gradient-1);
+}
+
+.highcharts-axis-line {
+  display: none;
+}
+
+.highcharts-legend-item {
+  display: none;
+}
+
+.highcharts-axis-labels span.active {
+  color: $mainBlack !important;
+  fill: $mainBlack;
+  font-weight: bold !important;
+}

@@ -1,0 +1,144 @@
+.transaction {
+  padding-top: 1.6rem; }
+  .transaction__title {
+    font-size: 20px;
+    letter-spacing: 0.3px; }
+  .transaction-links {
+    padding-top: 1.2rem;
+    padding-bottom: 1.4rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .transaction-links__item {
+      margin-right: 1.8rem; }
+      .transaction-links__item:last-child {
+        margin-right: 0; }
+      .transaction-links__item a {
+        text-transform: uppercase;
+        -webkit-transition: color 0.2s;
+        -o-transition: color 0.2s;
+        transition: color 0.2s;
+        color: rgba(69, 80, 116, 0.2);
+        text-decoration: none; }
+      .transaction-links__item a:hover {
+        -webkit-transition: color 0.2s;
+        -o-transition: color 0.2s;
+        transition: color 0.2s;
+        color: #FF3C54; }
+      .transaction-links__item.active a {
+        -webkit-transition: color 0.2s;
+        -o-transition: color 0.2s;
+        transition: color 0.2s;
+        color: #FF3C54; }
+  .transaction-form {
+    min-height: 100px;
+    padding-top: 2rem;
+    padding-left: 2rem; }
+    .transaction-form__date {
+      width: 93px;
+      margin-right: 3%; }
+    .transaction-form__type {
+      width: 216px;
+      margin-right: 3%; }
+  .transaction-table {
+    padding-top: 2rem;
+    padding-bottom: 5rem; }
+    .transaction-table__date {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: start !important;
+      -webkit-align-items: flex-start !important;
+          -ms-flex-align: start !important;
+              align-items: flex-start !important;
+      -webkit-box-pack: start !important;
+      -webkit-justify-content: flex-start !important;
+          -ms-flex-pack: start !important;
+              justify-content: flex-start !important; }
+      .transaction-table__date_time {
+        color: #919BB0; }
+    .transaction-table__row {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: start;
+      -webkit-justify-content: flex-start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      font-size: 12px; }
+      .transaction-table__row_header {
+        -webkit-box-pack: start;
+        -webkit-justify-content: flex-start;
+            -ms-flex-pack: start;
+                justify-content: flex-start;
+        margin-bottom: 0.6rem; }
+      .transaction-table__row_body {
+        min-height: 60px;
+        font-weight: normal; }
+      .transaction-table__row_mb {
+        margin-bottom: 0.6rem; }
+    .transaction-table__item {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: start;
+      -webkit-justify-content: flex-start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .transaction-table__item img {
+        cursor: pointer; }
+    .transaction-table__plus {
+      min-width: 12%;
+      -webkit-transform: translate(33%, 9%) scale(0.8);
+          -ms-transform: translate(33%, 9%) scale(0.8);
+              transform: translate(33%, 9%) scale(0.8); }
+      .transaction-table__plus svg {
+        cursor: pointer; }
+    .transaction-table__header {
+      color: rgba(145, 155, 176, 0.5);
+      font-size: 10px;
+      margin-right: 1.5rem; }
+    .transaction-table__date {
+      min-width: 15.3%; }
+    .transaction-table__recived {
+      min-width: 12.2%; }
+    .transaction-table__sent {
+      min-width: 12%;
+      color: #FF3C54; }
+    .transaction-table__status {
+      min-width: 10.2%;
+      color: #304FFE; }
+    .transaction-table__description {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: start;
+      -webkit-align-items: flex-start;
+          -ms-flex-align: start;
+              align-items: flex-start; }
+      .transaction-table__description-title {
+        min-width: 18%; }
+      .transaction-table__description-text {
+        min-width: 100%; }

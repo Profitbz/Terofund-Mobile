@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="4px" viewBox="0 0 8 4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>chevron-down</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M6,6.79289322 L3.35355339,4.14644661 C3.15829124,3.95118446 2.84170876,3.95118446 2.64644661,4.14644661 C2.45118446,4.34170876 2.45118446,4.65829124 2.64644661,4.85355339 L5.64644661,7.85355339 C5.84170876,8.04881554 6.15829124,8.04881554 6.35355339,7.85355339 L9.35355339,4.85355339 C9.54881554,4.65829124 9.54881554,4.34170876 9.35355339,4.14644661 C9.15829124,3.95118446 8.84170876,3.95118446 8.64644661,4.14644661 L6,6.79289322 Z" id="path-1"></path>
+    </defs>
+    <g id="Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-black-finish" transform="translate(-1066.000000, -50.000000)">
+            <g id="Main" transform="translate(-1.000000, 0.000000)">
+                <g id="Header/land" transform="translate(1.000000, 0.000000)">
+                    <g id="chevron-down" transform="translate(1064.000000, 46.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <g id="Blue-Classic" mask="url(#mask-2)" fill="#304FFE" fill-rule="evenodd">
+                            <path d="M0,0 L12,0 L12,12 L0,12 L0,0 Z"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

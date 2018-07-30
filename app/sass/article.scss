@@ -1,0 +1,93 @@
+@import "vars";
+
+.article {
+  position: relative;
+
+  &__date {
+    position: absolute;
+    top: 5.2rem;
+    right: 6rem;
+    font-size: 16px;
+    font-weight: normal;
+    color: $mainAshes;
+  }
+
+  &__content {
+    padding-top: 4rem;
+    padding-left: 23rem;
+  }
+
+  &__paragraph {
+    font-weight: normal;
+    color: $mainAshes;
+    line-height: 34px;
+    max-width: 830px;
+  }
+
+  &__title {
+    font-size: 20px;
+    font-weight: normal;
+    padding-top: 3rem;
+  }
+
+  &__sub {
+    font-size: 12px;
+    color: $mainAshes;
+    font-weight: normal;
+    padding-top: 0.7rem;
+  }
+
+
+
+  &-links {
+    padding-top: 2rem;
+    display: flex;
+
+
+    &__item {
+      max-width: 216px;
+      margin-right: 1.7em;
+
+      &:last-child {
+        margin-right: 0;
+        opacity: 0.6;
+      }
+    }
+    &__img {
+      box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      width: 215px;
+      height: 215px;
+
+      & > img {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    &__title {
+      padding-top: 2rem;
+      font-size: 20px;
+
+    }
+
+    &__text {
+      padding-top: 2.4rem;
+      font-size: 16px;
+      color: $mainAshes;
+      line-height: 26px;
+      font-weight: normal;
+    }
+  }
+}
+
+#article-chart {
+  .highcharts-button {
+    display: none;
+  }
+
+  .highcharts-container {
+    background: #fcfcfc;
+  }
+}

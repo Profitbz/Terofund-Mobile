@@ -1,0 +1,153 @@
+@import "vars";
+
+.transaction {
+  padding-top: 1.6rem;
+
+  &__title {
+    font-size: 20px;
+    letter-spacing: 0.3px;
+  }
+
+  &-links {
+    padding-top: 1.2rem;
+    padding-bottom: 1.4rem;
+    display: flex;
+    align-items: center;
+
+    &__item {
+      margin-right: 1.8rem;
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      a {
+        text-transform: uppercase;
+        transition: color 0.2s;
+        color: rgba(69, 80, 116, 0.2);
+        text-decoration: none;
+      }
+
+      a:hover {
+        transition: color 0.2s;
+        color: $mainRed;
+      }
+
+      &.active a{
+        transition: color 0.2s;
+        color: $mainRed;
+      }
+    }
+  }
+
+  &-form {
+    min-height: 100px;
+    padding-top: 2rem;
+    padding-left: 2rem;
+
+    &__date {
+      width: 93px;
+      margin-right: 3%;
+    }
+
+    &__type {
+      width: 216px;
+      margin-right: 3%;
+    }
+  }
+
+  &-table {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+
+    &__date {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start !important;
+      justify-content: flex-start !important;
+      &_time {
+        color: $mainAshes;
+      }
+    }
+
+    &__row {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      font-size: 12px;
+
+      &_header {
+        justify-content: flex-start;
+        margin-bottom: 0.6rem;
+      }
+
+
+      &_body {
+        min-height: 60px;
+        font-weight: normal;
+      }
+
+      &_mb {
+        margin-bottom: 0.6rem;
+      }
+    }
+
+
+
+    &__item {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      img {
+        cursor: pointer;
+      }
+    }
+
+    &__plus {
+      min-width: 12%;
+      transform: translate(33%, 9%) scale(0.8);
+
+      svg {
+        cursor: pointer;
+      }
+    }
+
+    &__header {
+      color: $mainGray;
+      font-size: 10px;
+      margin-right: 1.5rem;
+    }
+
+    &__date {
+      min-width: 15.3%;
+    }
+
+    &__recived {
+      min-width: 12.2%;
+    }
+
+    &__sent {
+      min-width: 12%;
+      color: $mainRed;
+    }
+
+    &__status {
+      min-width: 10.2%;
+      color: $mainBlue;
+    }
+
+    &__description  {
+      display: flex;
+      align-items: flex-start;
+
+      &-title {
+        min-width: 18%;
+      }
+
+      &-text {
+        min-width: 100%;
+      }
+    }
+  }
+}
