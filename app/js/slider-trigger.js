@@ -4,8 +4,9 @@ $(document).ready(function(){
         autoplay: true,
         autoplaySpeed: 5000,
         centerMode: true,
+        arrows: false,
         centerPadding: '70px',
-        slidesToShow: 3,
+        slidesToShow: 1,
         responsive: [
             {
                 breakpoint: 768,
@@ -13,7 +14,7 @@ $(document).ready(function(){
                     arrows: false,
                     centerMode: true,
                     centerPadding: '6vw',
-                    slidesToShow: 3
+                    slidesToShow: 1
                 }
             },
             {
@@ -26,5 +27,6 @@ $(document).ready(function(){
                 }
             }
         ]
-    })
+    });
 });
+
