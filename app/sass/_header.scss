@@ -138,6 +138,7 @@
 }
 
 .header-info {
+  padding-top: 15vw;
 
   &__page-title {
     padding-top: 8.7vw;
@@ -146,6 +147,11 @@
     background-color: #fff;
     text-align: center;
     box-shadow: 0 2px 30px 0 rgba(0,0,0,0.10);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100000;
   }
 
   //&_sub {

@@ -17,7 +17,7 @@
     -webkit-border-radius: 10px;
             border-radius: 10px;
     width: 317px;
-    height: 176px;
+    padding-bottom: 9vw;
     position: relative;
     overflow: hidden; }
   .wallet__data {
