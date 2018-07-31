@@ -1,0 +1,6 @@
+.dashboard-affiliate-binary-form-container
+  = simple_form_for binary_form, url: assign_dashboard_affiliate_index_path, remote: true do |f|
+    = f.input :position, as: :select, include_blank: false
+    = f.input :children_id, as: :select, collection: users.nil? ? [] : users&.map { |user| [user['name'], user['id']] }, input_html: { multiple: true, title: 'Select users' }, label: 'Users'
+    .actions
+      = f.button :submit, 'Submit', class: 'btn'

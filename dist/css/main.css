@@ -6163,6 +6163,10 @@ header .landing-burger {
 
 .header-info__container {
   padding-top: 6.8vw; }
+  .header-info__container_mobile {
+    display: block; }
+  .header-info__container_tablet {
+    display: none; }
 
 .header-info__title {
   font-size: 6vw;
@@ -7563,7 +7567,65 @@ header .landing-burger {
         -ms-transform: translateX(-55.2%) scale(0.8);
             transform: translateX(-55.2%) scale(0.8); } }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .main-nav__item svg {
     width: 25px;
-    height: 25px; } }
+    height: 25px; }
+  .header-info__container_mobile {
+    display: none; }
+  .header-info__container_tablet {
+    display: block; }
+  .header-info__item {
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 2rem; }
+  .header-info__main {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 4vw;
+    -webkit-border-radius: 10vw;
+            border-radius: 10vw; }
+  .info-text__dollar {
+    font-size: 10px; }
+  .info-text__value {
+    font-size: 22px; }
+  .info-text__currency {
+    font-size: 14px;
+    padding-top: 0; }
+  .info-text__percent {
+    font-size: 8px; }
+  .info-circle__chart {
+    height: 250px;
+    width: 250px;
+    -webkit-transform: translate3d(0, 0, 0) scale(0.2);
+    transform: translate3d(0, 0, 0) scale(0.18); }
+  .info-text {
+    margin-left: 1.5rem;
+    padding-left: 0; }
+  .info-circle__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(33%, -31%);
+        -ms-transform: translate(33%, -31%);
+            transform: translate(33%, -31%);
+    font-size: 7px;
+    letter-spacing: 1px;
+    font-weight: bold; }
+    .info-circle__text_big {
+      -webkit-transform: translate(5%, -31%);
+          -ms-transform: translate(5%, -31%);
+              transform: translate(5%, -31%); }
+  .info__item {
+    padding-bottom: 0;
+    padding-right: 5vw; }
+    .info__item:last-child {
+      padding-right: 0; }
+  .header-info__title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 1rem; } }

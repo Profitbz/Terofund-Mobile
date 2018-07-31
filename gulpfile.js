@@ -10,18 +10,28 @@ var gulp           = require('gulp'),
 		autoprefixer   = require('gulp-autoprefixer'),
 		ftp            = require('vinyl-ftp'),
 		notify         = require("gulp-notify"),
-		rsync          = require('gulp-rsync');
+		rsync          = require('gulp-rsync'),
+		slim           = require("gulp-slim");
 
-	gulp.task('browser-sync', function() {
-		browserSync({
-			server: {
-				baseDir: 'app'
-			},
-			notify: false,
-			// tunnel: true,
-			// tunnel: "projectmane", //Demonstration page: http://projectmane.localtunnel.me
-		});
+
+gulp.task('browser-sync', function() {
+	browserSync({
+		server: {
+			baseDir: 'app'
+		},
+		notify: false,
+		// tunnel: true,
+		// tunnel: "projectmane", //Demonstration page: http://projectmane.localtunnel.me
 	});
+});
+
+gulp.task('slim', function(){
+    gulp.src("app/slim/*.slim")
+        .pipe(slim({
+            pretty: true
+        }))
+        .pipe(gulp.dest("./dist/html/"));
+});
 
 // Пользовательские скрипты проекта
 
@@ -51,7 +61,7 @@ gulp.task('sass', function() {
 	.pipe(browserSync.stream())
 });
 
-gulp.task('watch', ['sass', 'js', 'browser-sync'], function() {
+gulp.task('watch', ['sass', 'js', 'browser-sync', 'slim'], function() {
 	gulp.watch('app/sass/**/*.scss', ['sass']);
 	gulp.watch(['libs/**/*.js', 'app/js/**/*.js'], ['js']);
 	gulp.watch('app/*.html', browserSync.reload);
@@ -63,7 +73,7 @@ gulp.task('imagemin', function() {
 	.pipe(gulp.dest('dist/img')); 
 });
 
-gulp.task('build', ['removedist', 'imagemin', 'sass', 'js'], function() {
+gulp.task('build', ['removedist', 'imagemin', 'sass', 'js', 'slim'], function() {
 
 	var buildFiles = gulp.src([
 		'app/*.html',
