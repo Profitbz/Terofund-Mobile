@@ -28,6 +28,8 @@
   overflow: auto;
   padding: 100px 0;
   margin: -100px 0; }
+  .binary__container {
+    padding-top: 7rem !important; }
   .binary__wrapper {
     padding-bottom: 4rem; }
   .binary__btns {

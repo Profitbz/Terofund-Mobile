@@ -5366,6 +5366,8 @@ xpopup
   overflow: auto;
   padding: 100px 0;
   margin: -100px 0; }
+  .binary__container {
+    padding-top: 7rem !important; }
   .binary__wrapper {
     padding-bottom: 4rem; }
   .binary__btns {
@@ -7326,7 +7328,8 @@ header .landing-burger {
       -ms-flex-pack: start;
           justify-content: flex-start; }
   .affiliate__links .transaction-links__item {
-    margin-right: 4vw; }
+    margin-right: 4vw;
+    z-index: 10000; }
 
 .affiliate__btn-container {
   padding-bottom: 25vw; }
