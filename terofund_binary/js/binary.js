@@ -1,9 +1,9 @@
 jQuery(document).ready(function($) {
   // Render tree 
-  $.getJSON("../controllers/get_children_information.json", function(response) {
+  $.getJSON("controllers/get_children_information.json", function(response) {
     var children_information = response.data
 
-    $.getJSON("../controllers/export_binary_tree.json", function(response) {
+    $.getJSON("controllers/export_binary_tree.json", function(response) {
       var data, item, children
       var html = ''
 
@@ -159,7 +159,7 @@ jQuery(document).ready(function($) {
       node_append.remove()
     })
 
-    $.getJSON("../controllers/get_child_node.json", function(response) {
+    $.getJSON("controllers/get_child_node.json", function(response) {
       var html = ''
       var data = response.data
       html += render_child_node(data)

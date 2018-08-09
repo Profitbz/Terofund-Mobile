@@ -1,9 +1,6 @@
-@import 'vars';
-
 .network-wrap {
-  padding-bottom: 50px;
   overflow: hidden;
-  //overflow-x: auto;
+  overflow-x: auto;
   margin-top: 30px;
 }
 
@@ -16,8 +13,6 @@
   transition: all 0.5s;
   border-radius: 5px;
   transition: all 0.5s;
-
-  width: 80%;
 }
 
 .network > .content {
@@ -46,21 +41,12 @@
   right: 96px;
   top: 6px;
   text-align: center;
-
-  right: 50px;
-  top: 6px;
-  text-align: center;
-  min-width: 90px;
-  font-size: 10px;
-  line-height: 15px;
-  font-weight: 300;
 }
 
 .network .content-wrap .count-left label {
   margin: 0;
   font-size: 15px;
   display: block;
-  color: $mainBlue;
 }
 
 .network .content-wrap .item {
@@ -78,21 +64,12 @@
   left: 96px;
   top: 6px;
   text-align: center;
-
-  left: 50px;
-  top: 6px;
-  text-align: center;
-  min-width: 90px;
-  font-size: 10px;
-  line-height: 15px;
-  font-weight: 300;
 }
 
 .network .content-wrap .count-right label {
   margin: 0;
   font-size: 15px;
   display: block;
-  color: $mainBlue;
 }
 
 .network .content-wrap a.remove-child-node {
@@ -139,8 +116,6 @@
 .network .item .avatar img {
   max-width: 60px;
   border-radius: 50%;
-
-  max-width: 32px;
 }
 
 .network .item .avatar.hover {
@@ -152,8 +127,7 @@
   height: 28px;
   background-color: transparent;
   color: #304FFE;
-  font-size: 10px;
-  font-weight: 300;
+  font-size: 14px;
   position: absolute;
   left: 50%;
   bottom: -24px;
@@ -164,8 +138,6 @@
   line-height: 24px;
   border-radius: 5px;
   transform: translateX(-50%);
-
-  text-transform: capitalize;
 }
 
 .network .item a.load-more {
@@ -211,8 +183,6 @@
 
 .network .children .children .item .avatar img {
   max-width: 60px;
-
-  max-width: 32px;
 }
 
 .network .children .children .item .avatar.hover {
@@ -226,8 +196,6 @@
 
 .network .children .children .children .item .avatar img {
   max-width: 60px;
-
-  max-width: 32px;
 }
 
 .network .children .children .children .item .name {
@@ -243,9 +211,7 @@
 }
 
 .network .node-item-root .item {
-  margin-bottom: 26px;
-  height: 60px;
-  width: 100%;
+  margin-bottom: 30px;
 }
 
 .network .node-item-root .item:after {
@@ -306,7 +272,6 @@
   position: absolute;
   top: 0;
   right: 0;
-
 }
 
 .network .node-item-right:after {
@@ -317,7 +282,6 @@
   position: absolute;
   top: 0;
   left: 0;
-
 }
 
 .network .node-append {
@@ -345,11 +309,5 @@
   left: 50%;
   top: -50px;
   position: absolute;
-  transform: translateX(-50%);
-}
-
-.tooltipstered {
-  position: absolute;
-  left: 50%;
   transform: translateX(-50%);
 }
