@@ -120,7 +120,30 @@ jQuery(document).ready(function($) {
       html += '        <div class="name">' + item.username + '</div>'
       html += '      </div>'
       if (item.total_child > 0) {
-        html += '      <a data-user-id="' + item.id + '" class="load-more" href="javascript:">+</a>'
+        html += '      <a data-user-id="' + item.id + '" class="load-more" href="javascript:">'  +
+            '\n' +
+            '<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">\n' +
+            '    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->\n' +
+            '    <desc>Created with Sketch.</desc>\n' +
+            '    <defs></defs>\n' +
+            '    <g id="Fund" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">\n' +
+            '        <g id="16.-Affiliate-Binary-white" transform="translate(-226.000000, -705.000000)">\n' +
+            '            <g id="Binary-system" transform="translate(44.000000, 478.000000)">\n' +
+            '                <g id="4" transform="translate(155.000000, 135.000000)">\n' +
+            '                    <g id="Group-5" transform="translate(0.000000, 4.454343)">\n' +
+            '                        <g id="Group-4" transform="translate(0.000000, 24.545657)">\n' +
+            '                            <g id="+" transform="translate(27.000000, 63.000000)">\n' +
+            '                                <circle id="Oval-9" fill="#304FFE" cx="12" cy="12" r="12"></circle>\n' +
+            '                                <polygon id="`" fill="#FFFFFF" points="10.9311741 16 10.9311741 12.8784314 8 12.8784314 8 11.1215686 10.9311741 11.1215686 10.9311741 8 13.0688259 8 13.0688259 11.1215686 16 11.1215686 16 12.8784314 13.0688259 12.8784314 13.0688259 16"></polygon>\n' +
+            '                            </g>\n' +
+            '                        </g>\n' +
+            '                    </g>\n' +
+            '                </g>\n' +
+            '            </g>\n' +
+            '        </g>\n' +
+            '    </g>\n' +
+            '</svg>' +
+            '</a>'
       }
       html +=        render_tooltip(item)
       html += '    </div>'
