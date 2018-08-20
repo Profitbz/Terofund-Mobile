@@ -8,6 +8,8 @@
     margin-bottom: 1.4rem; }
     .modal-title_sub {
       margin-bottom: 0.4rem; }
+  .modal-form__link {
+    color: #304FFE; }
   .modal-form__limit {
     font-size: 12px;
     font-weight: normal;

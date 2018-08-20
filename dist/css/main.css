@@ -148,6 +148,14 @@ input, select {
   -webkit-border-radius: 0;
           border-radius: 0; }
 
+.main-logout {
+  position: absolute;
+  right: 7vw;
+  bottom: 3vw; }
+  .main-logout > svg {
+    width: 6vw;
+    fill: #919BB0; }
+
 .main-container.opened {
   -webkit-transition: all 0.6s;
   -o-transition: all 0.6s;
@@ -2369,6 +2377,8 @@ select {
     margin-bottom: 1.4rem; }
     .modal-title_sub {
       margin-bottom: 0.4rem; }
+  .modal-form__link {
+    color: #304FFE; }
   .modal-form__limit {
     font-size: 12px;
     font-weight: normal;
@@ -8069,3 +8079,6 @@ header .landing-burger {
     padding-bottom: 4vw; }
   .pop-container {
     min-height: 70vh; } }
+
+.modal-btn_submit {
+  bottom: 35vw; }
